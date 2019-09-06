@@ -1,6 +1,6 @@
 
 TITLE: 
-Profile - 100% Fully Responsive Free HTML5 Bootstrap Template
+Air - 100% Fully Responsive Free HTML5 Bootstrap Template
 
 AUTHOR:
 DESIGNED & DEVELOPED by FreeHTML5.co
@@ -27,9 +27,6 @@ http://modernizr.com/
 Google Fonts
 https://www.google.com/fonts/
 
-Google Map
-http://maps.google.com/
-
 Icomoon
 https://icomoon.io/app/
 
@@ -42,15 +39,11 @@ http://daneden.me/animate
 jQuery Waypoint
 https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
 
-Stellar Parallax
-http://markdalgleish.com/projects/stellar.js/
-
-jQuery countTo
-http://www.owlcarousel.owlgraphic.com/
-
-EasyPieChart
-https://github.com/rendro/easy-pie-chart
+Magnific Popup
+http://dimsemenov.com/plugins/magnific-popup/
 
 Demo Images:
 http://unsplash.com
 
+Flexslider
+http://flexslider.woothemes.com/
