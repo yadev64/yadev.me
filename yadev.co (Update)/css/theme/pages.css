@@ -7,13 +7,17 @@
 ################
                Start Common Page style
 ################
+
+color backup
+red:#f40e67
+blue:
 */
 .black-bg {
   background-color: #fff;
 }
 
 .top-section-area {
-  background-color: #f40e67;
+  background-color: #ffcf06;
   margin-top: 68px;
 }
 
@@ -58,14 +62,14 @@
 }
 
 .newsletter-area .primary-btn:hover .lnr {
-  color: #f40e67;
+  color: #ffcf06;
 }
 
 .primary-btn {
   line-height: 40px;
   padding: 0 30px;
   border-radius: 20px;
-  background: #f40e67;
+  background: #ffcf06;
   border: 1px solid #fff;
   color: #222222;
   display: inline-block;
@@ -219,7 +223,7 @@
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   padding: 0px 25px 0px 0px;
-  background: #f40e67;
+  background: #ffcf06;
 }
 
 .info-right {
@@ -426,12 +430,12 @@
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  color: #f40e67;
+  color: #ffcf06;
   margin-bottom: 5px;
 }
 
 .single-testimonial h4:hover {
-  color: #f40e67;
+  color: #ffcf06;
   cursor: pointer;
 }
 
