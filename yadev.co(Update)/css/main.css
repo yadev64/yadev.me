@@ -2306,7 +2306,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px; }
   .single-work .thumb .overlay-bg {
     background: #ffcf06;
-    opacity: 0.5;
+    opacity: 0;
     border-radius: 5px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
