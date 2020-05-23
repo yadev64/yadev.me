@@ -2306,7 +2306,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px; }
   .single-work .thumb .overlay-bg {
     background: #ffcf06;
-    opacity: 0;
+    opacity: 0.5;
     border-radius: 5px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -2872,7 +2872,7 @@ body.mobile-nav-active #mobile-nav-toggle {
       width: 60%;
       height: 1%; }
   .top-category-widget-area .single-cat-widget:hover .overlay-bg {
-    background: rgba(228, 84, 71, 0.85);
+    background: #ffcf06;
     margin: 7%;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
