@@ -2163,10 +2163,10 @@ body.mobile-nav-active #mobile-nav-toggle {
       .banner-content h1 {
         font-size: 40px;
         line-height: 40px; } }
-    @media (max-width: 325px) {
+    @media (max-width: 380px) {
       .banner-content h1 {
         font-size: 40px;
-        line-height: 20px; } }
+        line-height: 40px; } }
   .banner-content .me {
     background: #124E78;
     padding: 18px;
@@ -2266,7 +2266,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   @media (max-width: 991px) {
     .about-area .primary-btn.white {
       margin-bottom: 0px; } }
-  @media (max-width: 374px) {
+  @media (max-width: 380px) {
     .about-area .primary-btn.white {
       margin-right: 0;
       margin-bottom: 15px; } }
@@ -2694,7 +2694,7 @@ body.mobile-nav-active #mobile-nav-toggle {
       padding-left: 16px;
       padding-right: 16px;
       border-right: 2px solid #fff; }
-      @media (max-width: 380px) {
+      @media (max-width: 420px) {
         .about-content .box a {
           font-size: 13px; } }
       .about-content .box a:first-child {
