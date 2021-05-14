@@ -2229,13 +2229,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   .brand-wrap .owl-carousel .owl-item img {
     width: auto !important; }
   .brand-wrap .single-brand {
-    text-align: center;
+    /* text-align: center;
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
     -o-filter: grayscale(100%);
     filter: grayscale(100%);
-    opacity: .5;
+    opacity: .5; */
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
