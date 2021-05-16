@@ -1068,7 +1068,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5em; }
 
 .h1-cover{
-  color: white;
+  color: #39d9ff;
 }
 
 .typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
@@ -2274,7 +2274,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*-------- End About Area ------------*/
 /*--------- Start Work Area -------------*/
 .work-area {
-  background: #f9f9ff; }
+  background: #ffffff; }
   @media (max-width: 1024px) {
     .work-area .row.mb-80 {
       margin-bottom: 30px; } }
@@ -2287,18 +2287,18 @@ body.mobile-nav-active #mobile-nav-toggle {
         margin-top: 40px; } }
     .work-area .filters ul {
       padding: 0;
-      text-align: right; }
+      text-align: center; }
       @media (max-width: 991px) {
         .work-area .filters ul {
           text-align: left; } }
       .work-area .filters ul li {
         list-style: none;
         display: inline-block;
-        padding: 0 15px;
+        padding: 25px;
         cursor: pointer;
         position: relative;
         text-transform: capitalize;
-        font-size: 13px; }
+        font-size: 25px; }
         .work-area .filters ul li:last-child {
           padding-right: 0; }
         @media (max-width: 991px) {
@@ -2306,6 +2306,8 @@ body.mobile-nav-active #mobile-nav-toggle {
             padding-left: 0; } }
         .work-area .filters ul li.active, .work-area .filters ul li:hover {
           color: #ffcf06; }
+          .work-area .filters ul li:hover {
+            color: #06ffa0; }
   .work-area .filters-content .show {
     opacity: 1;
     visibility: visible;
@@ -2322,13 +2324,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 5px;
   margin-bottom: 30px; }
   .single-work .thumb .overlay-bg {
-    background: #ffcf06;
+    background-image: linear-gradient(to bottom, rgb(0, 101, 160) , rgb(71, 152, 245));
+    /* box-shadow: 0 4px 8px 0 rgba(0, 162, 255, 0.52), 0 6px 20px 0 rgba(0, 255, 149, 0.59); */
+    box-shadow:  0 20px 50px  rgba(8, 112, 184, 0.7);
     opacity: 0;
     border-radius: 5px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s; }
+    transition: all 0.5s ease 1s box-shadow .3s; }
   .single-work .thumb .image {
     opacity: 1;
     display: block;
