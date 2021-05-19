@@ -1068,7 +1068,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5em; }
 
 .h1-cover{
-  color: #39d9ff;
+  color: #ffffff;
 }
 
 .typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
@@ -1991,8 +1991,10 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: capitalize;
   outline: none;
   font-family: "Poppins", sans-serif; }
-  .nav-menu a.active, .nav-menu a:hover {
+  .nav-menu a.active {
     color: #ffcf06 !important; }
+    .nav-menu a:hover {
+      color: #06ffa0 !important; }
  
 
 
@@ -2026,7 +2028,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400; }
 
 .nav-menu ul li:hover > a {
-  color: #ffcf06; }
+  color: #06ffa0; }
 
 .nav-menu ul ul {
   margin: 0; }
@@ -2049,7 +2051,7 @@ h1, h2, h3, h4, h5, h6 {
       top: 26px; } }
 
 #mobile-nav-toggle i {
-  color: #ffcf06;
+  color: #06ffa0;
   font-weight: 900; }
 
 @media (max-width: 800px) {
@@ -2107,13 +2109,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff; }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #ffcf06; }
+  color: #06ffa0; }
 
 #mobile-nav ul .menu-has-children li a {
   text-transform: none; }
 
 #mobile-nav ul .menu-item-active {
-  color: #ffcf06; }
+  color: #06ffa0; }
+  
 
 #mobile-body-overly {
   width: 100%;
@@ -2146,8 +2149,29 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #124E78; }
 
 .updated-banner-area {
-  background: url(../img/home_bg.jpg) center;
-  background-size: cover; }
+  background: linear-gradient(-45deg, #00ff6a,#006eff, #002fff, #8400ff, #ae00ff);
+	background-size: 400% 400%;
+	animation: gradient 13s ease infinite;
+ }
+ @media (max-width: 600px) {
+  .updated-banner-area {
+    background: linear-gradient(-45deg, #00ffbf, #00ff6a,#006eff, #002fff, #8400ff, #ae00ff, #9900ff);
+	background-size: 300% 300%;
+	animation: gradient 10s ease infinite; } }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+/* BG BUBBLE */
+  
+  /*BG Bubble end  */
 
 .banner-content {
   text-align: center; }
@@ -2169,7 +2193,7 @@ body.mobile-nav-active #mobile-nav-toggle {
         font-size: 35px;
         line-height: 35px; } }
   .banner-content .me {
-    background: #124E78;
+    background: #0095ff;
     padding: 18px;
     display: inline-block;
     color: #fff;
@@ -2185,9 +2209,9 @@ body.mobile-nav-active #mobile-nav-toggle {
       height: 0;
       border-left: 26px solid transparent;
       border-right: 0px solid transparent;
-      border-top: 24px solid #124E78; }
+      border-top: 24px solid #0095ff; }
   .banner-content .designation {
-    color: lightskyblue;
+    color: rgb(162, 219, 255);
     font-size: 30px;
     font-weight: 400;
     line-height: 42px; }
@@ -2198,7 +2222,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     .banner-content .designation .designer {
       color: #ffcf06; }
     .banner-content .designation .developer {
-      color: #0099ff; }
+      /* color: #06ffa0;  */
+      color: #06ffa0;
+    }
 
 .banner-img {
   text-align: right;
@@ -2213,7 +2239,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   @media (max-width: 1480px) {
     .banner-img img {
       max-width: 80%; } }
-
+/* Banner end */
 .brand-wrap {
   background: #fff;
   margin-top: -60px;
@@ -2306,22 +2332,18 @@ body.mobile-nav-active #mobile-nav-toggle {
         position: relative;
         text-transform: capitalize;
         font-size: 25px; }
-        @media (max-width: 450px) {
+        @media (max-width: 991px) {
           .work-area .filters ul li {
-            font-size: 10px;
-            padding: 10px; } }
+            font-size: 20px;
+            padding: 20px; } }
             @media (max-width: 770px) {
               .work-area .filters ul li {
                 font-size: 15px;
                 padding: 15px; } }
-                @media (max-width: 991px) {
-                  .work-area .filters ul li {
-                    font-size: 20px;
-                    padding: 20px; } }
-                @media (max-width: 350px) {
-                  .work-area .filters ul li {
-                    font-size: 10px;
-                    padding: 7px; } }
+        @media (max-width: 450px) {
+          .work-area .filters ul li {
+            font-size: 10px;
+            padding: 7px; } }
         .work-area .filters ul li:last-child {
           padding-right: 0; }
         @media (max-width: 991px) {
@@ -2390,7 +2412,8 @@ body.mobile-nav-active #mobile-nav-toggle {
       color: #fff; }
       .single-work:hover .image {
         transform: scale(1.04);
-      filter: blur(5px); }
+        box-shadow: inset 0 0 0 200px rgba(255,255,255,0.05);
+        filter: blur(5px); }
   .single-work:hover .thumb .overlay-bg {
     opacity: .80;
     transform: scale(1.05); }
