@@ -2290,7 +2290,7 @@ body.mobile-nav-active #mobile-nav-toggle {
       text-align: center; }
       @media (max-width: 991px) {
         .work-area .filters ul {
-          text-align: left; } }
+          text-align: center; } }
       .work-area .filters ul li {
         list-style: none;
         display: inline-block;
@@ -2299,6 +2299,18 @@ body.mobile-nav-active #mobile-nav-toggle {
         position: relative;
         text-transform: capitalize;
         font-size: 25px; }
+        @media (max-width: 450px) {
+          .work-area .filters ul li {
+            font-size: 10px;
+            padding: 10px; } }
+            @media (max-width: 770px) {
+              .work-area .filters ul li {
+                font-size: 15px;
+                padding: 15px; } }
+                @media (max-width: 350px) {
+                  .work-area .filters ul li {
+                    font-size: 10px;
+                    padding: 7px; } }
         .work-area .filters ul li:last-child {
           padding-right: 0; }
         @media (max-width: 991px) {
