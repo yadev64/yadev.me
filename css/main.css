@@ -2345,7 +2345,7 @@ body.mobile-nav-active #mobile-nav-toggle {
                 padding: 15px; } }
         @media (max-width: 450px) {
           .work-area .filters ul li {
-            font-size: 12px;
+            font-size: 14px;
             padding: 10px; } }
         .work-area .filters ul li:last-child {
           padding-right: 0; }
