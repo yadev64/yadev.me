@@ -1981,7 +1981,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   margin-left: auto; }
 
-.nav-menu a {
+.nav-menu a{
   padding: 0px;
   text-decoration: none;
   display: inline-block;
@@ -1991,14 +1991,30 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: capitalize;
   outline: none;
   font-family: "Poppins", sans-serif; }
+
+  .nav-menu i {
+    padding: 0px;
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+    outline: none;}
+
   .nav-menu a.active {
     color: #ffcf06 !important; }
     .nav-menu a:hover {
       color: #06ffa0 !important; }
- 
+     
+      #clickableAwesomeFont {
+        cursor: pointer;
+        color: #06ffa0 !important;
+   }
+   
 
 
-.nav-menu.white a {
+.nav-menu.white a, .nav-menu.white a {
   color: #fff; }
 
 .nav-menu > li {
@@ -2018,7 +2034,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu ul li {
   transition: 0.3s; }
 
-.nav-menu ul li a {
+.nav-menu ul li a, .nav-menu ul li i {
   padding: 10px;
   color: #333;
   transition: 0.3s;
@@ -2027,7 +2043,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: none;
   font-weight: 400; }
 
-.nav-menu ul li:hover > a {
+.nav-menu ul li:hover > a, .nav-menu ul li:hover > i {
   color: #06ffa0; }
 
 .nav-menu ul ul {
