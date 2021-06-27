@@ -2241,6 +2241,29 @@ body.mobile-nav-active #mobile-nav-toggle {
       /* color: #06ffa0;  */
       color: #06ffa0;
     }
+    .banner-content .footer-social {
+      text-align: center;
+      margin: 20px 0px 20px;
+      margin-top: -30px; }
+      @media (max-width: 1024px) {
+        .banner-content .footer-social {
+          margin: 15px 0px 30px; } }
+      .footer-area .footer-social a {
+        padding: 0 20px; }
+        .banner-content .footer-social a i {
+          color: #ffffff;
+          font-size: 25px;
+          padding-right: 20px;
+          -webkit-transition: all 0.3s ease 0s;
+          -moz-transition: all 0.3s ease 0s;
+          -o-transition: all 0.3s ease 0s;
+          transition: all 0.3s ease 0s; }
+          @media (max-width: 576px) {
+            .banner-content .footer-social a i {
+              font-size: 25px; } }
+              .banner-content .footer-social a i:hover {
+                transform: scale(1.1);
+                color: #06ffa0; }
 
 .banner-img {
   text-align: right;
