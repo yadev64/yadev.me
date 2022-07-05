@@ -1,4 +1,4 @@
-# [yadev.co](https://yadev.me)
+# [yadev.me](https://yadev.me)
 
 This is the repo of my portfolio website. Have a look into it by visiting https://yadev.me :)
 
